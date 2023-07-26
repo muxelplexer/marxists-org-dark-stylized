@@ -1,0 +1,147 @@
+@-moz-document domain("marxists.org") {
+@import url('https://fonts.cdnfonts.com/css/open-sans.css');
+html
+{
+    background-color: #111111;
+}
+
+body,
+div.border,
+table,
+tbody,
+td,
+main,
+p.head,
+p.sub,
+p.note,
+p.footer,
+p.fst,
+tr
+{
+    background-image: none;
+    background-color: #1c1c1c;
+    color: #cecece;
+    border-color: #ff5e5e;
+}
+
+p.bubble,
+p.indent,
+p.information,
+p.index,
+p.foter,
+span.tilt
+{
+    color: #f4f4f4;
+}
+
+a.cite:link,
+a.cite:visited,
+span,
+span.info,
+span.name
+{
+    color: #a5a5a5;
+}
+
+td.note,
+p,
+p.pagenote,
+span.date,
+span.note,
+span.term
+{
+    color: #cecece;
+}
+
+hr,
+hr.end,
+h1,
+h2,
+h3,
+h4,
+p.toc,
+p.title,
+p.term
+{
+    color: #ff5e5e;
+}
+
+h3 span {
+    color: inherit !important;
+}
+
+a.biog:link,
+a.biography:link,
+a.green:link,
+a.group:link,
+a.mecw:link,
+a.member:link,
+a.red:link,
+a.small:link,
+a.small-green:link,
+a.small-red:link,
+a.title:link,
+a.writer:link,
+a:link
+{
+    text-decoration: underline;
+    color: #ff9595;
+}
+
+a.biog:visited,
+a.biography:visited,
+a.green:visited,
+a.group:visited,
+a.mecw:visited,
+a.member:visited,
+a.red:visited,
+a.small:visited,
+a.small-green:visited,
+a.small-red:visited,
+a.title:visited,
+a.writer:visited,
+a:visited
+{
+    color: #ff6c6c;
+}
+
+a.mia:link
+{
+    color: #ff9595;
+    background: transparent;
+}
+
+body
+{
+    width: 60%;
+    margin: 0px auto;
+}
+
+p
+{
+    text-indent: 0em;
+    line-height: 150%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+p.fst
+{
+    text-indent: 0em;
+    line-height: 150%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+body p.quoteb
+{
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
+}
+}
